@@ -8,6 +8,8 @@
 *[Contact](#contact)
 
 # Description
+![DanBook Back End](https://user-images.githubusercontent.com/112973907/222992786-fbd86e3e-0024-4e69-a7c1-52f405ec48f3.gif)
+
 Welcome to DanBook! This project is a test of my skills involving  MongoDB, Mongoose and ExpressJS to create a RESTful API for a social media website. All routes have been tested with ThunderClient.  
 ## Installation
 N/A
