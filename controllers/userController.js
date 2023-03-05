@@ -37,7 +37,7 @@ module.exports = {
             .catch((err) => res.status(500).json(err));
     },
     deleteUser(req, res) {
-        User.deleteOne({ id: req.params.userId })
+        User.deleteOne({ _id: req.params.userId })
             .then(userData => {
                 !userData
                     ? res.status(404).json({ message: 'No user found with that id!' })
