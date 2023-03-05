@@ -12,7 +12,8 @@ Welcome to DanBook! This project is a test of my skills involving  MongoDB, Mong
 ## Installation
 N/A
 ## Instructions
-This program is not intended for public use, however there is a tutorial video to show how it works using ThunderClient, a lightweight alternative to Insomnia and Postman. To see it in action, please refer to the link below: 
+This program is not intended for public use, however there is a tutorial video to show how it works using ThunderClient, a lightweight alternative to Insomnia and Postman. To see it in action, please refer to the link below: https://drive.google.com/file/d/1fjJ0bV8eYSYyD3Owiy1syOtnljwZXKSn/view
+
 ## Credits
 N/A
 ## License
