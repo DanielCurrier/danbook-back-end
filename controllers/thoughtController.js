@@ -52,7 +52,7 @@ module.exports = {
         Thought.findOneAndUpdate({ _id: req.params.thoughtId }, { $pull: { reactions: { _id: req.params.reactionId } } }, { new: true })
             .then(thoughtData => !thoughtData
                 ? res.status(404).json({ message: 'No thought has been found with that Id!' })
-                : res.json(thoughtData))
+                : res.status(200).json('Reaction has been removed!'))
             .catch((err) => res.status(500).json(err))
     }
 };

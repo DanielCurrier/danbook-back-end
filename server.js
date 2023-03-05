@@ -13,4 +13,4 @@ db.once('open', () => {
     app.listen(PORT, () => {
         console.log(`Connection has been secured on PORT ${3001}.`)
     });
-});
+}); 
